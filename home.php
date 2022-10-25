@@ -12,6 +12,7 @@ body {
   background-size: 100% 100%;
 }
 </style>
+<body style="background-color:powderblue;"> </body>
 <?php
     if($_SESSION['role'] == 'owner'){
 ?>
@@ -19,7 +20,7 @@ body {
 <html>
 <head>
     
-    <title></title>
+    <title>Gector Laundry</title>
 </head>
 
 <body>

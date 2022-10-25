@@ -16,6 +16,7 @@
                 $_SESSION['nama']=$dt_login['nama'];
                 $_SESSION['role']=$dt_login['role'];
                 $_SESSION['foto']=$dt_login['foto'];
+                $_SESSION['alamat']=$dt_login['alamat'];
                 $_SESSION['status_login']=true;
                 header("location: home.php");
             } else {

@@ -3,7 +3,7 @@
     if($_POST){
     include "koneksi.php";
     $cart=@$_SESSION['cart'];
-    $tgl_selesai=date('Y-m-d',mktime(0,0,0,date('m'),(date('d')+2),date('Y')));
+    $tgl_selesai=date('Y-m-d',mktime(0,0,0,date('m'),(date('d')+3),date('Y')));
     if(count($cart)>0){
         if($_POST['status']=='dibayar'){
             mysqli_query($conn,"insert into transaksi (id_member,tgl,batas_waktu,tgl_bayar,status,dibayar,id_user) value('".$_POST['nama']."','".date('Y-m-d')."','".$tgl_selesai."','".date('Y-m-d')."','baru','".$_POST['status']."','".$_SESSION['id']."')");
