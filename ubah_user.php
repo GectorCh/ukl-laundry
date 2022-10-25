@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,6 +27,8 @@ id = '".$_GET['id']."'");
   "<?=$dt_user['id']?>">
         Nama user :
   <input type="text" name="nama" value=   "<?=$dt_user['nama']?>" class="form-control">
+        Alamat :
+    <input type="text" name="alamat" value= "<?=$dt_user['alamat']?>" class="form-control">
        
         Role : 
         <?php 

@@ -36,15 +36,7 @@ session_start();
               <a class="nav-link" aria-current="page" href="tampil_paket.php">Tampil Paket</a>
             </li>
             
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tambah_user.php">Tambah User</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tambah_member.php">Tambah Member</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tambah_paket.php">Tambah Paket</a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="keranjang.php">Transaksi</a>
             </li>
@@ -92,9 +84,7 @@ session_start();
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="tampil_member.php">Tampil Member</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tambah_member.php">Tambah Member</a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="keranjang.php">Transaksi</a>
             </li>

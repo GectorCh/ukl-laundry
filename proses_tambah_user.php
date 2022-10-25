@@ -4,11 +4,13 @@
         $username=$_POST['username'];
         $password=$_POST['password'];
         $role=$_POST['role'];
+        $alamat=$_POST['alamat'];
+        $foto=$_POST['foto'];
         if(empty($nama)){
             echo "<script>alert('nama user tidak boleh kosong');location.href='tambah_user.php';</script>";
         } else {
             include "koneksi.php";
-            $insert=mysqli_query($conn,"insert into user (nama, username, password, role) value ('".$nama."','".$username."','".md5($password)."','".$role."')") or die(mysqli_error($conn));
+            $insert=mysqli_query($conn,"insert into user (nama, username, password, role, alamat, foto) value ('".$nama."','".$username."','".md5($password)."','".$role."','".$alamat."','".$foto."')") or die(mysqli_error($conn));
             if($insert){
                 echo "<script>alert('Sukses menambahkan user');location.href='tampil_user.php';</script>";
             } else {

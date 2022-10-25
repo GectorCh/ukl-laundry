@@ -4,7 +4,7 @@
 <html>
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title></title>
+    <title>Gector Laundry</title>
 </head>
 <style>
 body {
@@ -22,6 +22,8 @@ body {
         <input type="text" name="nama" value="" class="form-control">
         Username : 
         <input type="text" name="username" value="" class="form-control">
+        Alamat :
+        <input type="text" name="alamat" value="" class="form-control">
         Role : 
         <select name="role" class="form-control">
             <option></option>
